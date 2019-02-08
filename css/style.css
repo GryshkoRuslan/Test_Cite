@@ -1,0 +1,382 @@
+body {
+  margin: 0;
+  padding: 0;
+  min-width: 1200px;
+  font-family: Calibri, sans-serif;
+}
+
+.header {
+  background: url(../img/header.png) no-repeat;
+  background-size: 100% 165px;
+  height: 150px;
+  padding-top: 5px;
+}
+
+.navbar {
+  margin: 0 auto;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.navbar ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.navbar li {
+  display: inline-block;
+
+}
+
+.navbar li > a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-size: 28px;
+}
+
+.navbar li > a:hover {
+  text-decoration: underline;
+}
+
+.navbar ul li:last-child {
+  margin-left: 70px;
+}
+
+.navbar div.logo {
+  display: inline-block;
+  margin: 0 30px;
+  position: relative;
+  bottom: 50px;
+}
+
+.navbar .logo span {
+  position: absolute;
+  color: rgb(255, 255, 255);
+  font-size: 100px;
+  left: 40px;
+  top: 35px;
+}
+
+div.slider {
+  background: url(../img/Slider_Section.png) no-repeat;
+  background-size: 100% 1005px;
+  height: 1000px;
+  box-shadow: 0 -5px 10px rgba(0,0,0,0.3);
+  padding-top: 5px;
+
+}
+
+.slider h1 {
+  text-align: center;
+  color: rgb(255, 255, 255);
+  margin: 50px 0 0;
+  padding: 0;
+  font-size: 120px;
+  text-shadow: 15px 0 rgba(0,0,0,0.5);
+}
+
+.slider .ribbon img {
+  width: 500px;
+}
+
+.slider .ribbon {
+  width: 500px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.slider .ribbon span {
+  position: absolute;
+  left: 120px;
+  top: 5px;
+  font-weight: 600;
+  font-size: 28px;
+}
+
+.vintage-camera {
+  width: 800px;
+  margin: 40px auto;
+}
+
+.vintage-camera img {
+  border: 15px solid rgb(255, 255, 255);
+  border-radius: 5px;
+  box-shadow: 0 0 30px rgba(0,0,0,0.7);
+}
+
+.slider p {
+  white-space: pre-line;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-size: 35px;
+  margin: 0;
+}
+
+.slider p span {
+  font-size: 25px;
+}
+
+div.about {
+  background: url(../img/About_Section.png) no-repeat;
+  background-size: 100% 905px;
+  height: 900px;
+  padding-top: 5px;
+}
+
+.about p {
+  color: rgb(58,58,58);
+  text-align: center;
+  font-weight: 600;
+}
+
+.about .container {
+ width: 1100px;
+ min-height: 550px;
+ margin: 50px auto 0;
+ padding: 5px;
+}
+
+.container .column {
+  display: inline-block;
+  width: 262px;
+  margin-left: 10px;
+  text-align: center;
+  vertical-align: top;
+}
+
+.container .column:first-child {
+  margin-left: 0;
+}
+
+.container .column img.tv-mus-eat-clo {
+  width: 200px;
+}
+
+.container .column p {
+  margin: 0;
+}
+
+.container .column p.info {
+  font-weight: normal;
+  text-align: left;
+  color: rgb(58,58,58);
+  margin-top: 20px;
+}
+
+div.portfolio {
+  background: url(../img/Portfolio_Section.png) no-repeat;
+  background-size: 100% 955px;
+  height: 950px;
+  padding-top: 5px;
+}
+
+.portfolio p {
+  color: rgb(58,58,58);
+  text-align: center;
+  font-weight: 600;
+}
+
+.portfolio .container {
+  width: 1100px;
+  min-height: 550px;
+  margin: 50px auto 20px;
+  padding: 5px;
+  text-align: center;
+}
+
+.portfolio .block {
+  display: inline-block;
+  margin: -5px -5px 15px 15px;
+  background-color: rgb(227,223, 215);
+  width: 250px;
+  height: 250px;
+  border: 5px solid rgb(255, 255, 255);
+  border-bottom: 30px solid rgb(255, 255, 255);
+}
+
+.portfolio .container .block:nth-child(1), .block:nth-child(5) {
+  margin-left: -5px;
+}
+
+div.blog {
+  background: url(../img/Blog_Section.png) no-repeat;
+  background-size: 100% 1055px;
+  height: 1050px;
+  padding-top: 5px;
+}
+
+.blog > p {
+  color: rgb(58,58,58);
+  text-align: center;
+  font-weight: 600;
+}
+
+.blog .container {
+  width: 1100px;
+  min-height: 550px;
+  margin: 50px auto 20px;
+
+}
+
+.blog .news {
+  margin-bottom: 30px;
+}
+
+.blog .news .photo {
+  display: inline-block;
+  margin-right: 30px;
+  background-color: rgb(227,223, 215);
+  width: 250px;
+  height: 200px;
+  border: 5px solid rgb(255, 255, 255);
+}
+
+.blog .news .desc {
+  display: inline-block;
+  vertical-align: top;
+  width: 800px;
+}
+
+.blog .news .desc h3 {
+  color: rgb(58,58,58);
+  font-size: 30px;
+  margin: 0;
+}
+
+.blog .news .desc .attributes {
+  margin: 0;
+  font-weight: 600;
+  font-size: 16px;
+  float: left;
+}
+
+.blog .news .desc .response {
+  margin: 0;
+  font-weight: 600;
+  font-size: 18px;
+  float: right;
+}
+
+.blog .news .desc .short-line {
+  clear: both;
+  display: block;
+  margin-bottom: 10px;
+}
+
+div.contacts {
+  background: url(../img/Contact_Section.png) no-repeat;
+  background-size: 100% 1055px;
+  height: 1050px;
+  padding-top: 5px;
+}
+
+
+.contacts h2.title-black {
+  color: rgb(255, 255, 255);
+  text-shadow: 10px 0 rgb(58,58,58), 12px 0 rgb(255, 255, 255);
+}
+
+.contacts p {
+  text-align: center;
+  font-weight: 600;
+  color: rgb(255, 255, 255);
+}
+
+form {
+  width: 550px;
+  min-height: 550px;
+  margin: 50px auto 20px;
+}
+
+input {
+  display: block;
+  width: 544px;
+  height: 45px;
+  border-radius: 5px;
+  border: 3px solid rgb(69, 69, 69);
+  margin-bottom: 15px;
+}
+
+textarea {
+  resize: none;
+  width: 544px;
+  border-radius: 5px;
+  border: 3px solid rgb(69, 69, 69);
+  outline: none;
+  height: 200px;
+}
+
+textarea:focus {
+  outline: none;
+  border: 3px solid rgb(78, 82, 133);
+}
+
+input:focus {
+  outline: none;
+  border: 3px solid rgb(78, 82, 133);
+}
+
+div.button {
+  text-align: center;
+}
+
+.contacts form button {
+  background: rgb(255, 255, 255);
+  height: 50px;
+  width: 200px;
+  border-radius: 5px;
+}
+
+.contacts form button:hover {
+    background: rgb(58,58,58);
+    color: rgb(255, 255, 255);
+}
+
+button {
+  background: none;
+  border: none;
+  border-top: 4px solid transparent;
+  font-size: 18px;
+  font-weight: 600;
+  color: rgb(58,58,58);
+}
+
+button:focus {
+  text-decoration: none;
+  outline:none;
+  box-shadow: none;
+}
+
+button:hover {
+  border-top: 4px solid rgb(58,58,58);
+}
+
+button:active {
+  color: rgb(255, 255, 255);
+  border-top: 4px solid rgb(255, 255, 255);
+}
+
+
+
+h2 {
+  text-align: center;
+  font-size: 120px;
+  color: rgb(58,58,58);
+  text-shadow: 10px 0 rgb(255, 255, 255), 12px 0 rgb(58,58,58);
+  margin: 0;
+}
+
+h3 {
+  color: rgb(58,58,58);
+  font-size: 40px;
+  margin: 0;
+}
+
+.separator {
+  width: 200px;
+  margin: 0 auto;
+
+}
